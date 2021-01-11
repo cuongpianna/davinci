@@ -377,9 +377,23 @@ ul{
 
     a{
       display: block;
-      padding: 8px 0;
+      padding: 11px 0;
     }
   }
+
+  .menu-wrap.show{
+    .sub-menu{
+      margin-top: 10px;
+      a{
+        border-bottom: 1px solid #efeff0;
+
+        &:last-child{
+          border: none;
+        }
+      }
+    }
+  }
+
 
   .header .header__inner .header__left ul.menu>li:hover {
     border: none !important;
@@ -504,5 +518,10 @@ ul{
     .col-title{
       margin-bottom: 0px;
     }
+  }
+
+  #scrollTop {
+    bottom: 650px;
+    right: 30px;
   }
 }

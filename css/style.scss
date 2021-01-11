@@ -204,8 +204,6 @@
   }
 }
 
-
-
 @media only screen and (max-width: 1024px) {
 
 
@@ -244,6 +242,19 @@
 
   .footer .col-1 {
     flex-basis: 55%;
+  }
+
+  .box-detail{
+    display: block;
+    .left{
+      margin-bottom: 30px;
+    }
+  }
+
+  .list-item .item{
+    &:nth-child(2n) {
+      border: none;
+    }
   }
 }
 
@@ -284,6 +295,7 @@
   .box-detail.container{
     max-width: 100%;
   }
+
 }
 
 
