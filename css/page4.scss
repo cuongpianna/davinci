@@ -1,6 +1,6 @@
 @import "base";
 
-.content{
+.content4{
   padding-top: 120px;
   padding-bottom: 235px;
   display: flex;
@@ -55,14 +55,14 @@
     display: block;
   }
 
-  .content{
+  .content4{
     padding-bottom: 75px;
   }
 }
 
 
 @media only screen and (max-width: 480px) {
-  .content{
+  .content4{
     padding-bottom: 80px;
 
     h2{
